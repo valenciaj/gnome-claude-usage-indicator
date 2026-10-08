@@ -10,5 +10,5 @@ sed -i "s|^Exec=.*|Exec=$HOME/.local/bin/claude-usage-indicator|" \
     "$HOME/.config/autostart/claude-usage-indicator.desktop"
 
 pkill -x claude-usage-in || true
-nohup "$HOME/.local/bin/claude-usage-indicator" >/dev/null 2>&1 &
+setsid -f "$HOME/.local/bin/claude-usage-indicator" >/dev/null 2>&1 </dev/null
 echo "Instalado. Se iniciará automáticamente al entrar en la sesión."
