@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Claude Usage Indicator
+Comment=Muestra el uso de tu plan de Claude en la barra superior
+Exec=claude-usage-indicator
+Icon=utilities-system-monitor
+Terminal=false
+Categories=Utility;
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=5
